@@ -61,8 +61,8 @@ void CLC2_Initialize(void)
 
     // LC2G1POL not_inverted; LC2G2POL not_inverted; LC2G3POL not_inverted; LC2G4POL not_inverted; LC2POL inverted; 
     CLC2POL = 0x80;
-    // LC2D1S LC3_out; 
-    CLC2SEL0 = 0x06;
+    // LC2D1S LC1_out; 
+    CLC2SEL0 = 0x04;
     // LC2D2S CLCIN0 (CLCIN0PPS); 
     CLC2SEL1 = 0x00;
     // LC2D3S CLCIN0 (CLCIN0PPS); 
@@ -83,10 +83,10 @@ void CLC2_Initialize(void)
 }
 
 
-//bool CLC2_OutputStatusGet(void)
-//{
-//    return(CLC2CONbits.LC2OUT);
-//}
+bool CLC2_OutputStatusGet(void)
+{
+    return(CLC2CONbits.LC2OUT);
+}
 /**
  End of File
 */

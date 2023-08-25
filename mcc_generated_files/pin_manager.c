@@ -69,8 +69,8 @@ void PIN_MANAGER_Initialize(void)
     TRISE = 0x00;
     TRISA = 0xFE;
     TRISB = 0x40;
-    TRISC = 0xFC;
-    TRISD = 0xDF;
+    TRISC = 0xFE;
+    TRISD = 0xD7;
 
     /**
     ANSELx registers
@@ -124,12 +124,11 @@ void PIN_MANAGER_Initialize(void)
    
     
 	
-    RC0PPS = 0x02;   //RC0->CLC2:CLC2OUT;    
+    RC0PPS = 0x01;   //RC0->CLC1:CLC1OUT;    
     RXPPS = 0x0E;   //RB6->EUSART:RX;    
     RB7PPS = 0x24;   //RB7->EUSART:TX;    
     COG3INPPS = 0x1A;   //RD2->COG3:COG3IN;    
     CLCIN3PPS = 0x1C;   //RD4->CLC4:CLCIN3;    
-    RC1PPS = 0x01;   //RC1->CLC1:CLC1OUT;    
     RE0PPS = 0x0E;   //RE0->COG3:COG3B;    
     RB4PPS = 0x0D;   //RB4->COG3:COG3A;    
     COG2INPPS = 0x19;   //RD1->COG2:COG2IN;    
@@ -138,8 +137,8 @@ void PIN_MANAGER_Initialize(void)
     CLCIN0PPS = 0x12;   //RC2->CLC3:CLCIN0;    
     RB0PPS = 0x05;   //RB0->COG1:COG1A;    
     RB2PPS = 0x09;   //RB2->COG2:COG2A;    
+    RD3PPS = 0x04;   //RD3->CLC4:CLC4OUT;    
     RB3PPS = 0x0A;   //RB3->COG2:COG2B;    
-    CLCIN2PPS = 0x1B;   //RD3->CLC4:CLCIN2;    
     CLCIN1PPS = 0x04;   //RA4->CLC3:CLCIN1;    
     COG1INPPS = 0x18;   //RD0->COG1:COG1IN;    
 }

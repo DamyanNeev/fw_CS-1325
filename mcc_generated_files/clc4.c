@@ -61,8 +61,8 @@ void CLC4_Initialize(void)
 
     // LC4G1POL not_inverted; LC4G2POL not_inverted; LC4G3POL not_inverted; LC4G4POL not_inverted; LC4POL not_inverted; 
     CLC4POL = 0x00;
-    // LC4D1S LC3_out; 
-    CLC4SEL0 = 0x06;
+    // LC4D1S LC1_out; 
+    CLC4SEL0 = 0x04;
     // LC4D2S CLCIN0 (CLCIN0PPS); 
     CLC4SEL1 = 0x00;
     // LC4D3S CLCIN0 (CLCIN0PPS); 

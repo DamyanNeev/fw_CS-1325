@@ -728,7 +728,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC1" name="clcin2Enable"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC1" name="clcin3Enable"/>
@@ -1996,7 +1996,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCCON"/>
-         <value>128</value>
+         <value>130</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCGLS0"/>
@@ -2008,23 +2008,23 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCGLS2"/>
-         <value>8</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCGLS3"/>
-         <value>8</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCPOL"/>
-         <value>0</value>
+         <value>128</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCSEL0"/>
-         <value>0</value>
+         <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCSEL1"/>
-         <value>3</value>
+         <value>6</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCSEL2"/>
@@ -2032,7 +2032,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC1" registerAlias="CLCSEL3"/>
-         <value>3</value>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCCON" settingAlias="LCEN"/>
@@ -2048,7 +2048,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCCON" settingAlias="LCMODE"/>
-         <value>AND-OR</value>
+         <value>4-input AND</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCCON" settingAlias="LCOUT"/>
@@ -2128,11 +2128,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCGLS2" settingAlias="LCG3D2N"/>
-         <value>disabled</value>
+         <value>enabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCGLS2" settingAlias="LCG3D2T"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCGLS2" settingAlias="LCG3D3N"/>
@@ -2160,11 +2160,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCGLS3" settingAlias="LCG4D2N"/>
-         <value>disabled</value>
+         <value>enabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCGLS3" settingAlias="LCG4D2T"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCGLS3" settingAlias="LCG4D3N"/>
@@ -2212,15 +2212,15 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCPOL" settingAlias="LCPOL"/>
-         <value>not_inverted</value>
+         <value>inverted</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCSEL0" settingAlias="LCD1S"/>
-         <value>CLCIN0 (CLCIN0PPS)</value>
+         <value>CLCIN1 (CLCIN1PPS)</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCSEL1" settingAlias="LCD2S"/>
-         <value>CLCIN3 (CLCIN3PPS)</value>
+         <value>LC3_out</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCSEL2" settingAlias="LCD3S"/>
@@ -2228,7 +2228,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC1" registerAlias="CLCSEL3" settingAlias="LCD4S"/>
-         <value>CLCIN3 (CLCIN3PPS)</value>
+         <value>CLCIN0 (CLCIN0PPS)</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC2" name="CLC2_CLCIISRFunction"/>
@@ -2248,7 +2248,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC2" name="clcin2Enable"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC2" name="clcin3Enable"/>
@@ -3540,7 +3540,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC2" registerAlias="CLCSEL0"/>
-         <value>6</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC2" registerAlias="CLCSEL1"/>
@@ -3736,7 +3736,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC2" registerAlias="CLCSEL0" settingAlias="LCD1S"/>
-         <value>LC3_out</value>
+         <value>LC1_out</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC2" registerAlias="CLCSEL1" settingAlias="LCD2S"/>
@@ -3768,7 +3768,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC3" name="clcin2Enable"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC3" name="clcin3Enable"/>
@@ -5036,7 +5036,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC3" registerAlias="CLCCON"/>
-         <value>130</value>
+         <value>128</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC3" registerAlias="CLCGLS0"/>
@@ -5056,15 +5056,15 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC3" registerAlias="CLCPOL"/>
-         <value>12</value>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC3" registerAlias="CLCSEL0"/>
-         <value>1</value>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC3" registerAlias="CLCSEL1"/>
-         <value>2</value>
+         <value>3</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC3" registerAlias="CLCSEL2"/>
@@ -5088,7 +5088,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCCON" settingAlias="LCMODE"/>
-         <value>4-input AND</value>
+         <value>AND-OR</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCCON" settingAlias="LCOUT"/>
@@ -5244,11 +5244,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCPOL" settingAlias="LCG3POL"/>
-         <value>inverted</value>
+         <value>not_inverted</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCPOL" settingAlias="LCG4POL"/>
-         <value>inverted</value>
+         <value>not_inverted</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCPOL" settingAlias="LCPOL"/>
@@ -5256,11 +5256,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCSEL0" settingAlias="LCD1S"/>
-         <value>CLCIN1 (CLCIN1PPS)</value>
+         <value>CLCIN0 (CLCIN0PPS)</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCSEL1" settingAlias="LCD2S"/>
-         <value>CLCIN2 (CLCIN2PPS)</value>
+         <value>CLCIN3 (CLCIN3PPS)</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC3" registerAlias="CLCSEL2" settingAlias="LCD3S"/>
@@ -5288,7 +5288,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC4" name="clcin2Enable"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLC4" name="clcin3Enable"/>
@@ -6580,7 +6580,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC4" registerAlias="CLCSEL0"/>
-         <value>6</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CLC4" registerAlias="CLCSEL1"/>
@@ -6776,7 +6776,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC4" registerAlias="CLCSEL0" settingAlias="LCD1S"/>
-         <value>LC3_out</value>
+         <value>LC1_out</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CLC4" registerAlias="CLCSEL1" settingAlias="LCD2S"/>
@@ -11783,11 +11783,11 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN0PPS%aux0"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN0PPS%aux11"/>
          <value>18</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN0PPS%aux11"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN0PPS%aux2"/>
          <value>18</value>
       </entry>
       <entry>
@@ -11795,12 +11795,8 @@
          <value>18</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN0PPS%aux6"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN0PPS%aux7"/>
          <value>18</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN1PPS%aux1"/>
-         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN1PPS%aux12"/>
@@ -11811,24 +11807,32 @@
          <value>4</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN1PPS%aux7"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN1PPS%aux3"/>
+         <value>4</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN1PPS%aux8"/>
          <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN2PPS%aux13"/>
-         <value>27</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN2PPS%aux2"/>
-         <value>27</value>
+         <value>%DESELECT%</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN2PPS%aux22"/>
-         <value>27</value>
+         <value>%DESELECT%</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN2PPS%aux8"/>
-         <value>27</value>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN2PPS%aux4"/>
+         <value>%DESELECT%</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN2PPS%aux9"/>
+         <value>%DESELECT%</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN3PPS%aux10"/>
+         <value>28</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN3PPS%aux14"/>
@@ -11839,23 +11843,19 @@
          <value>28</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN3PPS%aux3"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN3PPS%aux5"/>
          <value>28</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="CLCIN3PPS%aux9"/>
-         <value>28</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="COG1INPPS%aux10"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="COG1INPPS%aux19"/>
          <value>24</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="COG2INPPS%aux15"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="COG2INPPS%aux1"/>
          <value>25</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="COG3INPPS%aux4"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="COG3INPPS%aux6"/>
          <value>26</value>
       </entry>
       <entry>
@@ -12128,7 +12128,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="RD4"/>
-         <value>output</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="RD5"/>
@@ -12159,23 +12159,23 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="RXPPS%aux5"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="RXPPS%aux0"/>
          <value>14</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T1CKIPPS%aux16"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T1CKIPPS%aux15"/>
          <value>%DESELECT%</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T1GPPS%aux17"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T1GPPS%aux16"/>
          <value>%DESELECT%</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T5CKIPPS%aux18"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T5CKIPPS%aux17"/>
          <value>%DESELECT%</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T5GPPS%aux19"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="T5GPPS%aux18"/>
          <value>%DESELECT%</value>
       </entry>
       <entry>
@@ -15040,11 +15040,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="RC0PPS"/>
-         <value>2</value>
+         <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="RC1PPS"/>
-         <value>1</value>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="RC2PPS"/>
@@ -15084,7 +15084,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="RD3PPS"/>
-         <value>0</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="RD4PPS"/>
@@ -15204,11 +15204,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="TRISC"/>
-         <value>252</value>
+         <value>254</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="TRISD"/>
-         <value>223</value>
+         <value>215</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="TRISE"/>
@@ -16264,11 +16264,11 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="RC0PPS" settingAlias="RC0PPS"/>
-         <value>2</value>
+         <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="RC1PPS" settingAlias="RC1PPS"/>
-         <value>1</value>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="RC2PPS" settingAlias="RC2PPS"/>
@@ -16308,7 +16308,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="RD3PPS" settingAlias="RD3PPS"/>
-         <value>0</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="RD4PPS" settingAlias="RD4PPS"/>
@@ -16608,7 +16608,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="TRISC" settingAlias="TRISC1"/>
-         <value>output</value>
+         <value>input</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="TRISC" settingAlias="TRISC2"/>
@@ -16648,7 +16648,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="TRISD" settingAlias="TRISD3"/>
-         <value>input</value>
+         <value>output</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="TRISD" settingAlias="TRISD4"/>
@@ -17785,24 +17785,24 @@
          <hash>2c312c0b0a61277d913d1e479341837b2c8ac87e23a4bbbbb3b39f42e305678d</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files\clc4.c</file>
-         <hash>599801e2216cb3ea26ebd4bf7886dbed58ece2589d1b6d1d3d72647c2e6b38d2</hash>
-      </entry>
-      <entry>
          <file>mcc_generated_files\clc3.c</file>
-         <hash>73f61e805a0bbe40ee016bb302144d1e02acebb3635f6608286338984e4bb9a7</hash>
+         <hash>f699a8b0753e6131b4d02b37801f90e04490a799552529be12e0d0a405d852f3</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files\clc2.c</file>
-         <hash>3785839c7c1d1b96a13651906a39f5bd43a6ecb7725085394d773ec45f95c94a</hash>
+         <file>mcc_generated_files\clc4.c</file>
+         <hash>f58655a6a3ad581c4bde73adb46643597c101ee5402f4ed87ce52852b740ad9a</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\eusart.h</file>
          <hash>5f41539a4b7916dcda2e09b8f494b581b38f2d7b833eca42f31a985c523d8233</hash>
       </entry>
       <entry>
+         <file>mcc_generated_files\clc2.c</file>
+         <hash>c6c418ec83b919ab859718f0b00d158b70f588d67d99bd6108ad33fb73ab502c</hash>
+      </entry>
+      <entry>
          <file>mcc_generated_files\clc1.c</file>
-         <hash>1c6b6bd206ba465e7ce9eb55d77c124d87a6ee64468125b4618a9ad1d8ea7b22</hash>
+         <hash>64946391d7f434996f6a4bc52d6110871eb779d49ba94b5c6f243ed3cdd2d483</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\mcc.c</file>
@@ -17813,12 +17813,12 @@
          <hash>a56aa90491b75b390eeeef43b6a6804c860c051dde776d1d441328e90dd8003d</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files\clc4.h</file>
-         <hash>e60080391cd6d4444ff05943b89674229168a9f30933d1b8c1eeb9d6161a18a6</hash>
-      </entry>
-      <entry>
          <file>mcc_generated_files\clc1.h</file>
          <hash>84c5beb24a948315b328d1aff95c475d036aff47976b838b7f25c769ea2107e4</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\clc4.h</file>
+         <hash>e60080391cd6d4444ff05943b89674229168a9f30933d1b8c1eeb9d6161a18a6</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\clc3.h</file>
@@ -17826,19 +17826,19 @@
       </entry>
       <entry>
          <file>mcc_generated_files\mcc.h</file>
-         <hash>38525cec40c2b9ead4bfa75a2219e4a710fdca2a85797a5ddf5f6f1a0a15b3f2</hash>
+         <hash>647af333e4ffb6a3bf4b1ad7d127412281c2e933ba0dd55ae7f3034b250081a4</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\device_config.h</file>
          <hash>0430447d1c3a0bc8f7698799145ba44d68dcfd9ebdfc701043e794f9ef362f82</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files\cog1.c</file>
-         <hash>e6d58b9a7111859e17c8934b2e8f61acd7106b164604e95c0c0f063ced9be33c</hash>
-      </entry>
-      <entry>
          <file>mcc_generated_files\tmr5.h</file>
          <hash>b6d337d8623b5699cf4582b1984156050ce83348049c7176d44871af0af2ca2f</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\cog1.c</file>
+         <hash>e6d58b9a7111859e17c8934b2e8f61acd7106b164604e95c0c0f063ced9be33c</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\cog2.c</file>
@@ -17849,12 +17849,12 @@
          <hash>788a2d164c68b1759094ee0028f7d063a49eab3397ac093282613a170498ab3f</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files\cog1.h</file>
-         <hash>ec6742f0d8b6f84a0d04fecb4589a0478d1319398f249761a613cbb4826c9c16</hash>
-      </entry>
-      <entry>
          <file>mcc_generated_files\tmr5.c</file>
          <hash>1c21af1dc0e9222572e37077742232ebf74a9efd2106f2621fc3fa8d304f8ef5</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\cog1.h</file>
+         <hash>ec6742f0d8b6f84a0d04fecb4589a0478d1319398f249761a613cbb4826c9c16</hash>
       </entry>
       <entry>
          <file>main.c</file>
@@ -17870,7 +17870,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\pin_manager.h</file>
-         <hash>a5266d92e7446f174ccc9015b78c8ebc7cd773f596ea57033cbb1979712b822e</hash>
+         <hash>242b5d01fb9f98cfe3041eff305274e60d389610f893158d83971a7ae58c2ceb</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\tmr1.c</file>
@@ -17881,12 +17881,12 @@
          <hash>8d2edba66d2d7790b6eb234b6570c4cb3c5032f6ecfc9e6452e9d56bbda3520e</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files\cog3.h</file>
-         <hash>ee6644427666dec239172f69407d59c48d6405d2cdc92397f31510ef8dfc6d3f</hash>
-      </entry>
-      <entry>
          <file>mcc_generated_files\adc.h</file>
          <hash>6fc5165a2812099b3ff619bc0401e1d7f4544c3b13b3758f3beb938515d7d03d</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\cog3.h</file>
+         <hash>ee6644427666dec239172f69407d59c48d6405d2cdc92397f31510ef8dfc6d3f</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\eusart.c</file>
@@ -17894,7 +17894,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\pin_manager.c</file>
-         <hash>9c131b3c2e9c8d676ea8f6bbe7582ef04bacc9a3153710eb7fb3e1961b2682f9</hash>
+         <hash>e35b63b0f5f1f9044193558da7c215ca0eb5f546325ed5d9f359044818317dba</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\adc.c</file>
