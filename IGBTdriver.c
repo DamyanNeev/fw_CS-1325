@@ -116,16 +116,19 @@ void vCheckTrips( void )
     if( Get_ntcDeciValue( ADC_POS_AMB ) > Get_tripValues( TRIP_AMB_P_POS ) )
     {
         STOP_SetERR( ERR_AMB_TRIP_TEMP );
+        TP6_SetHigh();
     }
 
     if ( Get_ntcDeciValue( ADC_POS_HS ) > Get_tripValues( TRIP_HS_P_POS ) )
     {
         STOP_SetERR( ERR_HS_TRIP_TEMP );
+        TP6_SetHigh();
     }
 
     if ( Get_ntcDeciValue( ADC_POS_IND ) > Get_tripValues( TRIP_IND_P_POS ) )
     {
         STOP_SetERR( ERR_IND_TRIP_TEMP );
+        TP6_SetHigh();
     }
     
     
@@ -199,6 +202,7 @@ void vIGBTcontrol( void )
         case IGBT_STA_RESET:
 
             SetValue_mbInputReg( MB_I_STATUS, 0x0000 );
+            TP6_SetLow();
             igbtDrvState = IGBT_STA_IDLE;
             break;
 

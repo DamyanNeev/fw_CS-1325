@@ -82,6 +82,19 @@ MAIN_LoopState_t MAIN_LoopState = MAIN_STA_IDLE;
 bool iPwmEN_current;
 bool iPwmEN_prev;
 
+uint64_t led1LastTimeMs = 0;
+
+
+void Led1Blink( void )
+{
+    
+    if ( (Get_currentTimeMs() - led1LastTimeMs) > 500 )
+    {
+        LED1_Toggle();
+        led1LastTimeMs = Get_currentTimeMs();
+    }
+}
+
 void main (void)
 {
     // initialize the device
@@ -108,11 +121,14 @@ void main (void)
 
     iPwmEN_current = Get_iPwmEN_Stable();
     iPwmEN_prev = iPwmEN_current;
+    
+    TP6_SetLow();
 
-    //PORTDbits.RD5 = 0;
 
     while (1) {
         CLRWDT();
+        
+        Led1Blink();
 
         //        pwmEN_ScanNoIOC();
 

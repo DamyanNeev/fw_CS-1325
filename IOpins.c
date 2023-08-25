@@ -60,9 +60,6 @@ bool  iPwmEN_Stable;  //debounced key values. Visible all the time
 
 uint8_t  iPwmEN_DebounceCounter = 0;
 
-
-
-
 uint8_t  iEN_Changed;
 
 

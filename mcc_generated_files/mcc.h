@@ -59,6 +59,7 @@
 #include "cog2.h"
 #include "clc4.h"
 #include "cog1.h"
+#include "clc3.h"
 #include "memory.h"
 #include "clc2.h"
 #include "clc1.h"

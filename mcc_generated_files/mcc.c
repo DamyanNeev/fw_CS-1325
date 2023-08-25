@@ -59,6 +59,7 @@ void SYSTEM_Initialize(void)
     CLC1_Initialize();
     CLC4_Initialize();
     ADC_Initialize();
+    CLC3_Initialize();
     COG2_Initialize();
     TMR5_Initialize();
     TMR1_Initialize();

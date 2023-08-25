@@ -120,17 +120,17 @@ void COG2_Initialize(void)
 
 }
 
-//void COG2_AutoShutdownEventSet()
-//{
-//    // Setting the GxASDE bit of COGxASD register
-//    COG2ASD0bits.G2ASE = 1;
-//}
-//
-//void COG2_AutoShutdownEventClear()
-//{
-//    // Clearing the GxASDE bit of COGxASD register
-//    COG2ASD0bits.G2ASE = 0;
-//}
+void COG2_AutoShutdownEventSet()
+{
+    // Setting the GxASDE bit of COGxASD register
+    COG2ASD0bits.G2ASE = 1;
+}
+
+void COG2_AutoShutdownEventClear()
+{
+    // Clearing the GxASDE bit of COGxASD register
+    COG2ASD0bits.G2ASE = 0;
+}
 
 void COG2_ChangeDeadTime( uint8_t dTval )
 {

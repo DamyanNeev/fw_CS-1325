@@ -59,12 +59,12 @@ void CLC2_Initialize(void)
 {
     // Set the CLC2 to the options selected in the User Interface
 
-    // LC2G1POL not_inverted; LC2G2POL not_inverted; LC2G3POL inverted; LC2G4POL inverted; LC2POL inverted; 
-    CLC2POL = 0x8C;
-    // LC2D1S CLCIN1 (CLCIN1PPS); 
-    CLC2SEL0 = 0x01;
-    // LC2D2S CLCIN2 (CLCIN2PPS); 
-    CLC2SEL1 = 0x02;
+    // LC2G1POL not_inverted; LC2G2POL not_inverted; LC2G3POL not_inverted; LC2G4POL not_inverted; LC2POL inverted; 
+    CLC2POL = 0x80;
+    // LC2D1S LC3_out; 
+    CLC2SEL0 = 0x06;
+    // LC2D2S CLCIN0 (CLCIN0PPS); 
+    CLC2SEL1 = 0x00;
     // LC2D3S CLCIN0 (CLCIN0PPS); 
     CLC2SEL2 = 0x00;
     // LC2D4S CLCIN0 (CLCIN0PPS); 
@@ -73,10 +73,10 @@ void CLC2_Initialize(void)
     CLC2GLS0 = 0x02;
     // LC2G2D2N disabled; LC2G2D1N disabled; LC2G2D4N disabled; LC2G2D3N disabled; LC2G2D2T disabled; LC2G2D1T enabled; LC2G2D4T disabled; LC2G2D3T disabled; 
     CLC2GLS1 = 0x02;
-    // LC2G3D1N disabled; LC2G3D2N disabled; LC2G3D3N disabled; LC2G3D4N disabled; LC2G3D1T disabled; LC2G3D2T enabled; LC2G3D3T disabled; LC2G3D4T disabled; 
-    CLC2GLS2 = 0x08;
-    // LC2G4D1N disabled; LC2G4D2N disabled; LC2G4D3N disabled; LC2G4D4N disabled; LC2G4D1T disabled; LC2G4D2T enabled; LC2G4D3T disabled; LC2G4D4T disabled; 
-    CLC2GLS3 = 0x08;
+    // LC2G3D1N disabled; LC2G3D2N disabled; LC2G3D3N disabled; LC2G3D4N disabled; LC2G3D1T enabled; LC2G3D2T disabled; LC2G3D3T disabled; LC2G3D4T disabled; 
+    CLC2GLS2 = 0x02;
+    // LC2G4D1N disabled; LC2G4D2N disabled; LC2G4D3N disabled; LC2G4D4N disabled; LC2G4D1T enabled; LC2G4D2T disabled; LC2G4D3T disabled; LC2G4D4T disabled; 
+    CLC2GLS3 = 0x02;
     // LC2EN enabled; INTN disabled; INTP disabled; MODE 4-input AND; 
     CLC2CON = 0x82;
 

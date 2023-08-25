@@ -135,12 +135,12 @@ void PIN_MANAGER_Initialize(void)
     COG2INPPS = 0x19;   //RD1->COG2:COG2IN;    
     RB1PPS = 0x06;   //RB1->COG1:COG1B;    
     ADCACTPPS = 0x0A;   //RB2->ADC:ADCACT;    
-    CLCIN0PPS = 0x12;   //RC2->CLC2:CLCIN0;    
+    CLCIN0PPS = 0x12;   //RC2->CLC3:CLCIN0;    
     RB0PPS = 0x05;   //RB0->COG1:COG1A;    
     RB2PPS = 0x09;   //RB2->COG2:COG2A;    
     RB3PPS = 0x0A;   //RB3->COG2:COG2B;    
     CLCIN2PPS = 0x1B;   //RD3->CLC4:CLCIN2;    
-    CLCIN1PPS = 0x04;   //RA4->CLC2:CLCIN1;    
+    CLCIN1PPS = 0x04;   //RA4->CLC3:CLCIN1;    
     COG1INPPS = 0x18;   //RD0->COG1:COG1IN;    
 }
   

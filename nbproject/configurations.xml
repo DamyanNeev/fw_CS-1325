@@ -20,6 +20,7 @@
         <itemPath>mcc_Files/clc2.h</itemPath>
         <itemPath>mcc_Files/clc1.h</itemPath>
         <itemPath>mcc_Files/clc4.h</itemPath>
+        <itemPath>mcc_Files/clc3.h</itemPath>
       </logicalFolder>
       <itemPath>BoardConfig.h</itemPath>
       <itemPath>DBGmeasurements.h</itemPath>
@@ -54,6 +55,7 @@
         <itemPath>mcc_Files/clc2.c</itemPath>
         <itemPath>mcc_Files/clc4.c</itemPath>
         <itemPath>mcc_Files/clc1.c</itemPath>
+        <itemPath>mcc_Files/clc3.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
       <itemPath>DBGmeasurements.c</itemPath>
@@ -83,9 +85,9 @@
         <targetDevice>PIC16F1779</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>ICD4Tool</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.40</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

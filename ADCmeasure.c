@@ -269,7 +269,7 @@ int16_t InterpNCP21XV103( uint16_t adcVal )
     int16_t rrr = 0, uuu = 0;
 
     if ( adcVal < 53)  adcVal =  53;
-    if ( adcVal > 714) adcVal = 714;
+    if ( adcVal > 739) adcVal = 739;
     
     //Calculate the range in the grid adcCoord.x, x is fallen 
     if ( adcVal > adcNCP21XV103[1].bits)
