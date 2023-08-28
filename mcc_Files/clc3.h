@@ -110,7 +110,7 @@ void CLC3_Initialize(void);
     </code>
 */
 
-bool CLC3_OutputStatusGet(void);
+//bool CLC3_OutputStatusGet(void);
 
 #ifdef __cplusplus  // Provide C++ Compatibility
 

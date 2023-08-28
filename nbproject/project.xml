@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>CS1325</name>
+            <name>CS1325_Yana</name>
             <creation-uuid>f7923631-c871-414a-994c-8e549e3360e9</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

@@ -83,10 +83,10 @@ void CLC2_Initialize(void)
 }
 
 
-bool CLC2_OutputStatusGet(void)
-{
-    return(CLC2CONbits.LC2OUT);
-}
+//bool CLC2_OutputStatusGet(void)
+//{
+//    return(CLC2CONbits.LC2OUT);
+//}
 /**
  End of File
 */

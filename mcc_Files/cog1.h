@@ -120,7 +120,7 @@ void COG1_Initialize(void);
     COG1_AutoShutdownEventSet();
     </code>
 */
-void COG1_AutoShutdownEventSet();
+//void COG1_AutoShutdownEventSet();
 
 /**
   @Summary
@@ -157,7 +157,7 @@ void COG1_AutoShutdownEventSet();
     COG1_AutoShutdownEventClear();
     </code>
 */
-void COG1_AutoShutdownEventClear();
+//void COG1_AutoShutdownEventClear();
 
 
 #ifdef __cplusplus  // Provide C++ Compatibility

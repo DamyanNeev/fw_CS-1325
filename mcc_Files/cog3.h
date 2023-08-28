@@ -120,7 +120,7 @@ void COG3_Initialize(void);
     COG3_AutoShutdownEventSet();
     </code>
 */
-void COG3_AutoShutdownEventSet();
+//void COG3_AutoShutdownEventSet();
 
 /**
   @Summary
@@ -157,7 +157,7 @@ void COG3_AutoShutdownEventSet();
     COG3_AutoShutdownEventClear();
     </code>
 */
-void COG3_AutoShutdownEventClear();
+//void COG3_AutoShutdownEventClear();
 
 
 #ifdef __cplusplus  // Provide C++ Compatibility

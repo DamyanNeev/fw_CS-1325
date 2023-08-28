@@ -120,7 +120,7 @@ void COG2_Initialize(void);
     COG2_AutoShutdownEventSet();
     </code>
 */
-void COG2_AutoShutdownEventSet();
+//void COG2_AutoShutdownEventSet();
 
 /**
   @Summary
@@ -157,7 +157,7 @@ void COG2_AutoShutdownEventSet();
     COG2_AutoShutdownEventClear();
     </code>
 */
-void COG2_AutoShutdownEventClear();
+//void COG2_AutoShutdownEventClear();
 
 
 #ifdef __cplusplus  // Provide C++ Compatibility

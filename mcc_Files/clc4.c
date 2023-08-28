@@ -83,10 +83,10 @@ void CLC4_Initialize(void)
 }
 
 
-bool CLC4_OutputStatusGet(void)
-{
-    return(CLC4CONbits.LC4OUT);
-}
+//bool CLC4_OutputStatusGet(void)
+//{
+//    return(CLC4CONbits.LC4OUT);
+//}
 /**
  End of File
 */

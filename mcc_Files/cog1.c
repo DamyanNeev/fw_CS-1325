@@ -120,17 +120,17 @@ void COG1_Initialize(void)
 
 }
 
-void COG1_AutoShutdownEventSet()
-{
-    // Setting the GxASDE bit of COGxASD register
-    COG1ASD0bits.G1ASE = 1;
-}
+//void COG1_AutoShutdownEventSet()
+//{
+//    // Setting the GxASDE bit of COGxASD register
+//    COG1ASD0bits.G1ASE = 1;
+//}
 
-void COG1_AutoShutdownEventClear()
-{
-    // Clearing the GxASDE bit of COGxASD register
-    COG1ASD0bits.G1ASE = 0;
-}
+//void COG1_AutoShutdownEventClear()
+//{
+//    // Clearing the GxASDE bit of COGxASD register
+//    COG1ASD0bits.G1ASE = 0;
+//}
 
 
 void COG1_ChangeDeadTime( uint8_t dTval )

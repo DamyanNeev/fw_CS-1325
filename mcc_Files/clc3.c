@@ -83,10 +83,10 @@ void CLC3_Initialize(void)
 }
 
 
-bool CLC3_OutputStatusGet(void)
-{
-    return(CLC3CONbits.LC3OUT);
-}
+//bool CLC3_OutputStatusGet(void)
+//{
+//    return(CLC3CONbits.LC3OUT);
+//}
 /**
  End of File
 */
