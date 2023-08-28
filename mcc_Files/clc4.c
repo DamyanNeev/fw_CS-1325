@@ -59,8 +59,8 @@ void CLC4_Initialize(void)
 {
     // Set the CLC4 to the options selected in the User Interface
 
-    // LC4G1POL not_inverted; LC4G2POL not_inverted; LC4G3POL not_inverted; LC4G4POL not_inverted; LC4POL not_inverted; 
-    CLC4POL = 0x00;
+    // LC4G1POL not_inverted; LC4G2POL not_inverted; LC4G3POL not_inverted; LC4G4POL not_inverted; LC4POL inverted; 
+    CLC4POL = 0x80;
     // LC4D1S LC1_out; 
     CLC4SEL0 = 0x04;
     // LC4D2S CLCIN0 (CLCIN0PPS); 
