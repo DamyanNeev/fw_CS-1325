@@ -35,8 +35,8 @@
 // Constants and Macros Definitions
 //===================================
 //#define LUT_LEN 25
-#define LUT_LEN_NCP21     25
-#define LUT_LEN_NTCLE350  37
+#define LUT_LEN_NCP21     34
+#define LUT_LEN_NTCLE350  46
 
 
 #define DECI_DEGREE_STEP 50
@@ -231,6 +231,15 @@ void ReadADCchannels( void )
 adcCoord_t adcNCP21XV103[LUT_LEN_NCP21] = 
 {
 // ( bits  temperature ) 
+    { 999, -400 },
+    { 989, -350 },
+    { 975, -300 },
+    { 957, -250 },
+    { 935, -200 },
+    { 907, -150 },
+    { 874, -100 },
+    { 834,  -50 },
+    { 789,    0 },
     { 739,   50 },
     { 684,  100 },
     { 628,  150 },
@@ -313,6 +322,15 @@ int16_t InterpNCP21XV103( uint16_t adcVal )
 adcCoord_t adcNTCLE350E4103[LUT_LEN_NTCLE350] = 
 {
 // ( bits  temperature ) 
+    {1000, -400 },
+    { 990, -350 },
+    { 976, -300 },
+    { 959, -250 },
+    { 937, -200 },
+    { 909, -150 },
+    { 876, -100 },
+    { 836,  -50 },
+    { 791,    0 },
     { 741,   50 },
     { 686,  100 },
     { 629,  150 },
@@ -348,7 +366,7 @@ adcCoord_t adcNTCLE350E4103[LUT_LEN_NTCLE350] =
     {  14, 1650 },
     {  13, 1700 },
     {  12, 1750 },
-    {  10, 1800 },
+    {  11, 1800 },
     {  10, 1850 },  // LUT_LEN_NTCLE350 - 1  Max NTC temperature is 185 C
 };  // NTCLE350E4103FHB0
 
